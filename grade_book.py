@@ -1,5 +1,4 @@
 students = {}
-students["Ali"] = [78, 91, 66]
 
 def show_menu():
     print("\n=== Grade Book ===")
@@ -8,7 +7,7 @@ def show_menu():
 
 def add_student(): 
     name = input("Student name: ") 
-    marks = input("Marks separated by spaces: ") 
+    marks = input("Marks separated by spaces-: ") 
     students[name] = [int(m) for m in marks.split()] 
     print(f"Added {name}.")
 
