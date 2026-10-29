@@ -1,7 +1,7 @@
 students = {}
 
 def show_menu():
-    print("\n=== Grade Book ===")
+    print("\n==== Grade Book ====")
     print("1. Add student")
     print("0. Exit")
 
