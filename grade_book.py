@@ -3,7 +3,7 @@ students = {}
 def show_menu():
     print("\n=== Grade Book ===")
     print("0. Exit")
-    print("1. Calculate Grade")
+    print("1. Calculate Grade ")
 
 def calculate_grade(average):
     if average >= 85:
